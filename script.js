@@ -56,4 +56,4 @@ buscador.addEventListener("keydown", (evento) => {
 
 buscarProductos("galletas");
 
-  var mal = 'prueba' 
+  
