@@ -1,0 +1,16 @@
+{
+  "name": "catalogo-kinal",
+  "version": "1.0.0",
+  "description": "Laboratorio 4 - consumo de API, DOM y control de calidad con Husky y ESLint",
+  "main": "script.js",
+  "type": "module",
+  "scripts": {
+    "lint": "eslint .",
+    "prepare": "husky"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^10.11.0",
+    "husky": "^9.1.7"
+  }
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Catálogo</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <span class="topbar-mark">05</span>
+    <h1>Catálogo</h1>
+    <p class="topbar-sub">Buscador de productos de Open Food </p>
+  </header>
+
+  <main class="wrap">
+    <section class="controls">
+      <label for="buscador">Buscar producto</label>
+      <input id="buscador" type="text" placeholder="galletas, leche, yogur..." autocomplete="off" />
+      <button id="botonBuscar">Buscar</button>
+    </section>
+
+    <p class="estado" id="estado">Cargando productos...</p>
+
+    <section class="grid" id="grid"></section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
